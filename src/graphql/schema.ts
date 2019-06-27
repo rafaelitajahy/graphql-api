@@ -30,6 +30,12 @@ const typeDefs = `
 `;
 
 const resolvers = {
+    /////// manipulando os resolvers //////
+    /*User: {
+        id: (user) => user.id,
+        name: (user) => 'Name:' + user.name,
+        email: (user) => 'Email:' + user.email,
+    },*/ 
     Query: {
         allUsers:() => users
     },
